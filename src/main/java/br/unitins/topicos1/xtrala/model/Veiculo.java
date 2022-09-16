@@ -1,11 +1,20 @@
 package br.unitins.topicos1.xtrala.model;
 
 public class Veiculo {
-	private String marca;
-	private String modelo;
 	private TipoVeiculo tipo;
+	private String modelo;
+	private String marca;
+	private String placa;
 	private float valor;
 	private String descricao;
+
+	public String getPlaca() {
+		return placa;
+	}
+
+	public void setPlaca(String placa) {
+		this.placa = placa;
+	}
 
 	public float getValor() {
 		return valor;
